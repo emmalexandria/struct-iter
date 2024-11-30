@@ -1,6 +1,7 @@
 [package]
 name = "struct-iter"
 authors = ["Emma Alexandria"]
+description = "A very naughty proc macro to generate an iterator over the fields of your struct as a trait object"
 license = "MIT"
 version = "1.0.0"
 edition = "2021"
