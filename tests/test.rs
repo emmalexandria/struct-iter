@@ -1,6 +1,5 @@
 use std::fmt::Debug;
 use std::iter::IntoIterator;
-use std::vec::IntoIter;
 use struct_iter::StructIter;
 
 #[derive(Debug, Clone, StructIter)]

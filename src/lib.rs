@@ -1,11 +1,8 @@
 use proc_macro::TokenStream;
-use quote::{format_ident, quote, ToTokens};
+use quote::quote;
 use syn::{
-    parse::{Parse, ParseBuffer, Parser},
-    parse_macro_input,
-    punctuated::Punctuated,
-    AttrStyle, Attribute, Data, DeriveInput, Expr, Fields, Ident, Lit, LitStr, Meta, Path, Token,
-    Type, TypeParamBound, TypePath,
+    parse::{Parse, Parser},
+    parse_macro_input, Data, DeriveInput, Fields, LitStr, TypePath,
 };
 
 #[proc_macro_derive(StructIter, attributes(iter))]

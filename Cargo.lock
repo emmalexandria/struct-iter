@@ -24,7 +24,6 @@ dependencies = [
 name = "struct-iter"
 version = "1.0.0"
 dependencies = [
- "proc-macro2",
  "quote",
  "syn",
 ]
