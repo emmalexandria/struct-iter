@@ -1,4 +1,3 @@
-use proc_macro::{Level, Span, TokenStream};
 use quote::{format_ident, quote, ToTokens};
 use syn::{
     parse::{Parse, ParseBuffer, Parser},
